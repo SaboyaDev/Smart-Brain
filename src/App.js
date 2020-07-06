@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Navigation from './components/Navigation/Navigation';
+import Signin from './components/Signin/Signin';
 import Rank from './components/Rank/Rank';
 import ImageLinkForm from './components/ImageLinkForm/ImageLinkForm';
 import FaceRecognition from './components/FaceRecognition/FaceRecognition';
@@ -37,7 +38,6 @@ const particleOptions = {
     }
   }
 };
-
 
 class App extends Component {
   constructor() {
@@ -88,6 +88,7 @@ class App extends Component {
       <div className='App'>
         <Particles className='particles' params={particleOptions} />
         <Navigation />
+        <Signin />
         <Rank />
         <ImageLinkForm
           onInputChange={this.onInputChange}
