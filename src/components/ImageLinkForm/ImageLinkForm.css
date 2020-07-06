@@ -1,0 +1,16 @@
+.imageLinkForm {
+  background: linear-gradient(
+    72.3deg,
+    rgba(253, 105, 139, 1) 8.5%,
+    rgba(29, 7, 64, 1) 92.2%
+  );
+}
+
+.form {
+  min-width: 200px;
+  /* width: 600px; */
+}
+
+#detectBtn {
+  background-color: black;
+}
