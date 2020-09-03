@@ -27,7 +27,7 @@ class Register extends Component {
 		event.preventDefault();
 		const { name, email, password } = this.state;
 		const { loadUser, onRouteChange } = this.props;
-		fetch('http://localhost:3001/register', {
+		fetch('https://young-mesa-35370.herokuapp.com/register', {
 			method: 'post',
 			headers: { 'Content-Type': 'application/json' },
 			body: JSON.stringify({
@@ -38,7 +38,7 @@ class Register extends Component {
 		})
 			.then((response) => response.json())
 			.then((user) => {
-				if (user) {
+				if (user.id) {
 					loadUser(user);
 					onRouteChange('home');
 				}
