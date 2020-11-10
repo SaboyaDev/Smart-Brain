@@ -1,43 +1,23 @@
-# Face-Rec - Drone Prokect with Node.js with Socket.io & UDP4 
+# Smart Brain - Full Stack React Facial Recognition App (Frontend-Portion)
 
 
 
 <p align="center">
-   <img src="./front-end/src/sources/takeflight.gif">
+   <img src="https://personal-portfolio-2020.s3.amazonaws.com/face-recognition.png" width=500px>
 <p/>
 
 
-
-## See My Demo Presentation 
-
-Click [YouTube](https://www.youtube.com/watch?v=izNCqQCPWCQ&t=5s) to see this Drone project
-
+### [Live-Project](https://5f50823e1b7c838b61b74d83--face-recognition-react-app.netlify.app/)
 
 
 ## Technologies:
 
 - React
-- CSS3
-- Node
-- Next
-- UDPD4
-- Socket.io
-- MySQL
-- Sequelize 
+- SCSS
+- BCrypt
 
 ## About
 
-A React.js Drone application that uses a Node.js backend to communicate with the DJI Tello Drone via UDP4 sockets, and to communicate to and from the browser Socket.io was implemented. Data sent back from the drone was used to display it's current position in a gyroscope ui, the drone's battery level. Flight data was recorded into a MySql database.
+ A Facial Recognition app built on React.js that uses Clarifai API to detect a face on a photo. A user can sign-up or login securely, and the system will keep track of how many scans the user has.
 
-Below I have the steps required to clone my repo on your local machine.
-
-**Clone my repo**
-
-`git clone https://github.com/SaboyaDev/Take-Flight.git`
-
-## Tips
-
-_Make sure to have [Node.js](https://nodejs.org/en/) so that you can use [NPM](https://www.npmjs.com/) CLI, which comes with Node.js installation._
-
-Make sure to start both front-end and backend-end servers
-
+The backend was built on Node.js with an Express server that connects to a MySQL database. For security BCrypt was implemented, this took care of the password-hashing. 
