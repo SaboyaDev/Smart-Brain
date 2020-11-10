@@ -6,9 +6,8 @@
    <img src="https://personal-portfolio-2020.s3.amazonaws.com/face-recognition.png" width=500px>
 <p/>
 
-
-### [Live-Project](https://5f50823e1b7c838b61b74d83--face-recognition-react-app.netlify.app/)
-
+### Live-Site: [Smart Brain](https://5f50823e1b7c838b61b74d83--face-recognition-react-app.netlify.app/)
+### Github: [Backend-Portion Repo](https://github.com/SaboyaDev/Smart-Brain-Backend)
 
 ## Technologies:
 
